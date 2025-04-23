@@ -1,39 +1,49 @@
 
 <!DOCTYPE html>
-<html lang="="fr">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DIGITC - Accueil</title>
+    <title>DIGITC - Boutique</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>DIGITC</h1>
         <nav>
-            <a href="#about">À propos</a>
-            <a href="#faq">FAQ</a>
-            <a href="mailto:maketdigitc@gmail.com">Contact Email</a>
-            <a href="https://wa.me/2250710037390?text=Bonjour%20DIGITC,%20j'aimerais%20avoir%20plus%20d'informations." target="_blank">Contact WhatsApp</a>
+            <a href="#produits">Nos produits</a>
+            <a href="mailto:maketdigitc@gmail.com">Contact</a>
+            <a href="https://wa.me/2250710037390?text=Bonjour%2C%20je%20souhaite%20avoir%20plus%20d'informations%20sur%20vos%20produits.">WhatsApp</a>
         </nav>
     </header>
+
     <main>
-        <section id="about">
-            <h2>À propos</h2>
-            <p>Je suis M.KOUAME KOUASSI ONESIME, un passionné de technologie et d’impact social. J’ai lancé DIGITC pour transformer la manière dont les Africains apprennent, entreprennent et réussissent en ligne.</p>
-            <p>DIGITC propose des formations pratiques, des e-books, et un accompagnement personnalisé pour ceux qui veulent aller loin.</p>
-            <p>Nos valeurs : Éducation, Autonomie, Solidarité, Liberté.</p>
+        <section class="hero">
+            <h2>Bienvenue chez DIGITC</h2>
+            <p>Découvrez nos produits digitaux et formations innovantes.</p>
         </section>
-        <section id="faq">
-            <h2>FAQ</h2>
-            <p><strong>1. Que propose DIGITC ?</strong> Formations, documents, accompagnement personnalisé.</p>
-            <p><strong>2. À qui s’adresse DIGITC ?</strong> Aux jeunes, freelances, entrepreneurs, entreprises, salariés, étudiants...</p>
-            <p><strong>3. Comment contacter DIGITC ?</strong> Via WhatsApp ou email ci-dessus.</p>
+
+        <section id="produits" class="produits">
+            <h2>Nos produits</h2>
+            <div class="produit">
+                <img src="https://via.placeholder.com/200" alt="Produit 1">
+                <h3>Formation Word & Excel</h3>
+                <p>Maîtrisez les bases en 7 jours. Idéal pour débutants.</p>
+                <button onclick="acheter('Formation Word & Excel')">Acheter</button>
+            </div>
+            <div class="produit">
+                <img src="https://via.placeholder.com/200" alt="Produit 2">
+                <h3>Pack IA pour Débutant</h3>
+                <p>Apprenez à utiliser l'intelligence artificielle avec des outils gratuits.</p>
+                <button onclick="acheter('Pack IA pour Débutant')">Acheter</button>
+            </div>
         </section>
     </main>
+
     <footer>
-        <p>&copy; 2025 DIGITC. Tous droits réservés.</p>
+        <p>Contact : maketdigitc@gmail.com | WhatsApp : +225 07 100 373 90</p>
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
