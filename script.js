@@ -1,1 +1,2 @@
-console.log('Site DIGITC prêt à l’emploi');
+
+console.log("Bienvenue sur DIGITC!");
